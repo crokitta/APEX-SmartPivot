@@ -1,6 +1,6 @@
 {
   "name" : "APEX SmartPivot",
-  "version" : "1.0",
+  "version" : "1.2.1.0",
   "description" : "The APEX SmartPivot Plug-in is an Oracle Application Express Plug-in that adds those reporting features to your application which, till now, made users export APEX report data to Excel.",
   "keywords" : ["Pivot Table", "Report", "Data Analysis", "Interactive Report"],
   "homepage" : "http://www.apexsmartpivot.com",
@@ -8,7 +8,8 @@
     "url" : "https://github.com/crokitta/APEX-SmartPivot/issues",
     "email" : "christian@rokitta.nl"
   },
-  "license" : "MIT",
+  "license" : "Proprietary",
+  "commercial" : "Yes",
   "author" : {
     "name" : "Christian Rokitta",
     "email" : "christian@rokitta.nl",
@@ -21,7 +22,7 @@
   "oracle" : {
     "versions" : ["11.2.0.1", "12.1.0.1"],
     "apex" : {
-      "versions" : ["4.2.0","5.0.0"],
+      "versions" : ["5.0.0","5.1.0","18.2.0","19.1.0","19.2.0"],
       "plugin" : {
         "internalName" : "NL.SMART4APEX.PIVOT",
         "type" : "region",
